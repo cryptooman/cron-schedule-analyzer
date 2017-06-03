@@ -14,6 +14,9 @@ Usage:
         5 * * * *<TAB>34.2
         15 0 * * *<TAB>1356.8
     
+    $ mkdir cronexpr
+    $ export GOPATH=`pwd`/cronexpr
+    $ go get github.com/gorhill/cronexpr
     $ go build -o cron_schedule_analyzer.bin cron_schedule_analyzer.go
     $ ./cron_schedule_analyzer.bin my_cron_schedule
     
